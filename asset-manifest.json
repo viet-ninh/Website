@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/www.vninh.com/static/css/main.97ff87ee.css",
+    "main.js": "/www.vninh.com/static/js/main.ef535694.js",
+    "static/js/787.bbe01249.chunk.js": "/www.vninh.com/static/js/787.bbe01249.chunk.js",
+    "index.html": "/www.vninh.com/index.html",
+    "main.97ff87ee.css.map": "/www.vninh.com/static/css/main.97ff87ee.css.map",
+    "main.ef535694.js.map": "/www.vninh.com/static/js/main.ef535694.js.map",
+    "787.bbe01249.chunk.js.map": "/www.vninh.com/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97ff87ee.css",
+    "static/js/main.ef535694.js"
+  ]
+}
