@@ -10,13 +10,13 @@ const App = () => {
   return (
     <>
       <CssBaseline/>
-      <AppBar position="relative">
+      <AppBar>
         <Toolbar>
-          <Face />
-          <Typography variant = "h6">
-            Viet Ninh
-          </Typography>
-        </Toolbar>
+              <Face />
+              <Typography variant = "h6">
+                Viet Ninh
+              </Typography>
+            </Toolbar>
       </AppBar>
       <main>
         <div>
