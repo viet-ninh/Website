@@ -1,11 +1,13 @@
 import React from 'react';
-import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button } from '@material-ui/core';
+import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container, Button, Avatar } from '@material-ui/core';
 
 import useStyles from './css/App';
+
+import profile from "./static/images/profile-2.jpg";
+
 /*
 To change the icon look at material-ui's icons
 */
-import { Face } from '@material-ui/icons';
 
 const App = () => {
   const classes = useStyles();
@@ -14,9 +16,9 @@ const App = () => {
     <>
       <CssBaseline/>
         <AppBar position="relative" className={classes.navbar}>
-          <Toolbar>
-                <Face />
-                <Typography variant = "h6">
+          <Toolbar>          
+              <Avatar alt="Viet Ninh" src={profile} sx={{ width: 56, height: 56 }} />
+                <Typography variant = "h6" style={{padding: "10px"}}>
                   Viet Ninh
                 </Typography>
               </Toolbar>
@@ -28,7 +30,7 @@ const App = () => {
               Viet Ninh
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary" paragraph>
-              Hello, welcome to my website!
+            Hello! Welcome to my website!
             </Typography>
             <div>
 
@@ -39,7 +41,7 @@ const App = () => {
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="outlined" color="primary" href='mailto:vietquocninh@gmail.com'>
                     Email Me
                   </Button>
                 </Grid>
