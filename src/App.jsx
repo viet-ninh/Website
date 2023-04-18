@@ -10,20 +10,19 @@ const App = () => {
   return (
     <>
       <CssBaseline/>
-      <AppBar>
-        <Toolbar>
-              <Face />
-              <Typography variant = "h6">
-                Viet Ninh
-              </Typography>
-            </Toolbar>
-      </AppBar>
+        <AppBar position="relative">
+          <Toolbar>
+                <Face />
+                <Typography variant = "h6">
+                  Viet Ninh
+                </Typography>
+              </Toolbar>
+        </AppBar>
       <main>
         <div>
           <Container maxWidth="sm">
-            <br></br>
             <Typography variant="h5" align="center" color="textPrimary" paragraph>
-            Hello! Welcome to Viet Ninh's Website.
+              Hello! Welcome to Viet Ninh's Website.
             </Typography>
           </Container>
         </div>
