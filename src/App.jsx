@@ -36,7 +36,7 @@ const App = () => {
 
               <Grid container spacing={2} justifyContent='center'>
                 <Grid item>
-                  <Button variant="contained">
+                  <Button variant="contained" href='tel:4027709505'>
                     Call Me
                   </Button>
                 </Grid>
