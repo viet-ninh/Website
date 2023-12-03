@@ -9,7 +9,10 @@ const useStyles = makeStyles((theme) => ({
   primaryButton:{
     background: "#2C2A4A",
     color: "#FFFC7F7"
-  }
+  },
+  container:{
+    background: "#FFFCF7"
+  },
 }));
 
 export default useStyles;
