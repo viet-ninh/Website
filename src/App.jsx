@@ -8,6 +8,7 @@ import profile from "./static/images/profile.jpg";
 
 import VSA from './VSA';
 import Home from './Home';
+import Research from './Research';
 /*
 To change the icon look at material-ui's icons
 */
@@ -32,19 +33,23 @@ const App = () => {
           <div>
             <nav>
               <ul>
-                <Button variant="contained" href='/'>
+                <Button variant="contained" href='/' style={{margin: "0px 8px 8px 0px"}}>
                   Home
                 </Button>
-                <Button variant="contained" href='/VSA'>
-                  VSA Leadership Experience
+                <Button variant="contained" href='/vsa' style={{margin: "0px 8px 8px 0px"}}>
+                  Leadership Experience
+                </Button>
+                <Button variant="contained" href='/research' style={{margin: "0px 8px 8px 0px"}}>
+                  Research Experience
                 </Button>
               </ul>
             </nav>
-
             <Divider/>
             {/* Routing */}
+            <br/>
             <Routes>
-              <Route path="/VSA" element={<VSA />} />
+              <Route path="/research" element={<Research />} />
+              <Route path="/vsa" element={<VSA />} />
               <Route path="/" element={<Home />} />
             </Routes>
           </div>
