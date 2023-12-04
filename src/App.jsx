@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Typography, AppBar,CssBaseline, Toolbar, Container, Button, Avatar, Divider } from '@material-ui/core';
 
 import useStyles from './css/App';
@@ -33,13 +33,13 @@ const App = () => {
           <div>
             <nav>
               <ul>
-                <Button variant="contained" href='/' style={{margin: "0px 8px 8px 0px"}}>
+                <Button variant="contained" component={Link} to="/" style={{margin: "0px 8px 8px 0px"}}>
                   Home
                 </Button>
-                <Button variant="contained" href='/vsa' style={{margin: "0px 8px 8px 0px"}}>
+                <Button variant="contained" component={Link} to="/vsa" style={{margin: "0px 8px 8px 0px"}}>
                   Leadership Experience
                 </Button>
-                <Button variant="contained" href='/research' style={{margin: "0px 8px 8px 0px"}}>
+                <Button variant="contained" component={Link} to="/research" style={{margin: "0px 8px 8px 0px"}}>
                   Research Experience
                 </Button>
               </ul>
