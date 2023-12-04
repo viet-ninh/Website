@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52aab047510c3d020ae2bfbc7c7ee906",
+    "revision": "ab33c8e8ae632605fee58e6c579471f3",
     "url": "/index.html"
   },
   {
-    "revision": "7381b713f6600e3e29f4",
-    "url": "/static/js/2.7eb7c451.chunk.js"
+    "revision": "493534b5fd1ca35d5f1e",
+    "url": "/static/js/2.99afc77b.chunk.js"
   },
   {
     "revision": "b54b2a58b92e9cbc29706fdf87578352",
-    "url": "/static/js/2.7eb7c451.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.99afc77b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c3b67e8501b3dbec452",
-    "url": "/static/js/main.a63052b6.chunk.js"
+    "revision": "23daf6cc6339a4ba97af",
+    "url": "/static/js/main.cd3521ee.chunk.js"
   },
   {
     "revision": "c9935929a832abc79d84",
     "url": "/static/js/runtime-main.a8c2270f.js"
+  },
+  {
+    "revision": "63e02c07a82f49403d6530c9b049467f",
+    "url": "/static/media/VSA_Folk_Games.63e02c07.JPG"
   },
   {
     "revision": "1e65a178041b59d3b45d342c98e9b948",
