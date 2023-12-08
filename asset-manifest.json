@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/main.cd3521ee.chunk.js",
-    "main.js.map": "/static/js/main.cd3521ee.chunk.js.map",
+    "main.js": "/static/js/main.332dce6b.chunk.js",
+    "main.js.map": "/static/js/main.332dce6b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8c2270f.js",
     "runtime-main.js.map": "/static/js/runtime-main.a8c2270f.js.map",
-    "static/js/2.99afc77b.chunk.js": "/static/js/2.99afc77b.chunk.js",
-    "static/js/2.99afc77b.chunk.js.map": "/static/js/2.99afc77b.chunk.js.map",
+    "static/js/2.bf235510.chunk.js": "/static/js/2.bf235510.chunk.js",
+    "static/js/2.bf235510.chunk.js.map": "/static/js/2.bf235510.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7183bd6f12f8a1664fa201522628ca1d.js": "/precache-manifest.7183bd6f12f8a1664fa201522628ca1d.js",
+    "precache-manifest.3abe5feb07e7fad5cba0e364ff3430a9.js": "/precache-manifest.3abe5feb07e7fad5cba0e364ff3430a9.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.99afc77b.chunk.js.LICENSE.txt": "/static/js/2.99afc77b.chunk.js.LICENSE.txt",
+    "static/js/2.bf235510.chunk.js.LICENSE.txt": "/static/js/2.bf235510.chunk.js.LICENSE.txt",
     "static/media/VSA_Folk_Games.JPG": "/static/media/VSA_Folk_Games.63e02c07.JPG",
     "static/media/VSA_Food_GBM.JPG": "/static/media/VSA_Food_GBM.1e65a178.JPG",
-    "static/media/profile.jpg": "/static/media/profile.c6fd010a.jpg"
+    "static/media/profile.jpg": "/static/media/profile.c6fd010a.jpg",
+    "static/media/prusaslicer-bird.jpg": "/static/media/prusaslicer-bird.39dc35fd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a8c2270f.js",
-    "static/js/2.99afc77b.chunk.js",
-    "static/js/main.cd3521ee.chunk.js"
+    "static/js/2.bf235510.chunk.js",
+    "static/js/main.332dce6b.chunk.js"
   ]
 }
