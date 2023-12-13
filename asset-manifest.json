@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.js": "/static/js/main.332dce6b.chunk.js",
-    "main.js.map": "/static/js/main.332dce6b.chunk.js.map",
+    "main.js": "/static/js/main.c1a63bb4.chunk.js",
+    "main.js.map": "/static/js/main.c1a63bb4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8c2270f.js",
     "runtime-main.js.map": "/static/js/runtime-main.a8c2270f.js.map",
-    "static/js/2.bf235510.chunk.js": "/static/js/2.bf235510.chunk.js",
-    "static/js/2.bf235510.chunk.js.map": "/static/js/2.bf235510.chunk.js.map",
+    "static/js/2.e3cd9cc4.chunk.js": "/static/js/2.e3cd9cc4.chunk.js",
+    "static/js/2.e3cd9cc4.chunk.js.map": "/static/js/2.e3cd9cc4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3abe5feb07e7fad5cba0e364ff3430a9.js": "/precache-manifest.3abe5feb07e7fad5cba0e364ff3430a9.js",
+    "precache-manifest.5826ff4d8166e15a031ae928942490bf.js": "/precache-manifest.5826ff4d8166e15a031ae928942490bf.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.bf235510.chunk.js.LICENSE.txt": "/static/js/2.bf235510.chunk.js.LICENSE.txt",
+    "static/js/2.e3cd9cc4.chunk.js.LICENSE.txt": "/static/js/2.e3cd9cc4.chunk.js.LICENSE.txt",
+    "static/media/3D-printed-building-Dubai.jpg": "/static/media/3D-printed-building-Dubai.e6452a86.jpg",
     "static/media/VSA_Folk_Games.JPG": "/static/media/VSA_Folk_Games.63e02c07.JPG",
     "static/media/VSA_Food_GBM.JPG": "/static/media/VSA_Food_GBM.1e65a178.JPG",
     "static/media/profile.jpg": "/static/media/profile.c6fd010a.jpg",
-    "static/media/prusaslicer-bird.jpg": "/static/media/prusaslicer-bird.39dc35fd.jpg"
+    "static/media/prusaslicer-base.JPG": "/static/media/prusaslicer-base.6bbab7c1.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.a8c2270f.js",
-    "static/js/2.bf235510.chunk.js",
-    "static/js/main.332dce6b.chunk.js"
+    "static/js/2.e3cd9cc4.chunk.js",
+    "static/js/main.c1a63bb4.chunk.js"
   ]
 }

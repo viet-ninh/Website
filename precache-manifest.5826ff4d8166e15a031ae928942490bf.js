@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "182b79941b4492bfc6bd95b11b0ea56b",
+    "revision": "af5b0d7dd0a32415b7d080118ca2dc49",
     "url": "/index.html"
   },
   {
-    "revision": "1c0903b25894fcd4cc65",
-    "url": "/static/js/2.bf235510.chunk.js"
+    "revision": "bd0506674ca42790fe35",
+    "url": "/static/js/2.e3cd9cc4.chunk.js"
   },
   {
-    "revision": "b54b2a58b92e9cbc29706fdf87578352",
-    "url": "/static/js/2.bf235510.chunk.js.LICENSE.txt"
+    "revision": "8c87d1b38e961080d4f02a24d0da2e51",
+    "url": "/static/js/2.e3cd9cc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33d23468751761da106f",
-    "url": "/static/js/main.332dce6b.chunk.js"
+    "revision": "1b379d00d41ef2123902",
+    "url": "/static/js/main.c1a63bb4.chunk.js"
   },
   {
     "revision": "c9935929a832abc79d84",
     "url": "/static/js/runtime-main.a8c2270f.js"
+  },
+  {
+    "revision": "e6452a865c5c74ba83ac45233f7f6d95",
+    "url": "/static/media/3D-printed-building-Dubai.e6452a86.jpg"
   },
   {
     "revision": "63e02c07a82f49403d6530c9b049467f",
@@ -32,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.c6fd010a.jpg"
   },
   {
-    "revision": "39dc35fdda701f1a1592d862cd1948b8",
-    "url": "/static/media/prusaslicer-bird.39dc35fd.jpg"
+    "revision": "6bbab7c181534b71998736268a09b519",
+    "url": "/static/media/prusaslicer-base.6bbab7c1.JPG"
   }
 ]);
