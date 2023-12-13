@@ -1,6 +1,6 @@
-import React from 'react';
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { Typography, AppBar,CssBaseline, Toolbar, Container, Button, Avatar, Divider } from '@material-ui/core';
+import React, { useState } from 'react';
+import { HashRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import { Typography, AppBar,CssBaseline, Toolbar, Container, Button, Avatar, Menu, MenuItem } from '@material-ui/core';
 
 import useStyles from './css/App';
 
@@ -9,48 +9,74 @@ import profile from "./static/images/profile.jpg";
 import VSA from './VSA';
 import Home from './Home';
 import Research from './Research';
-/*
-To change the icon look at material-ui's icons
-*/
+import Opportunity from './Opportunity';
+import Takeaway from './Takeaway';
 
 const App = () => {
   const classes = useStyles();
+
+  const [anchorEl, setAnchorEl] = useState(null);
+  
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleMenuItemClick = () => {
+    handleClose();
+  }
 
   return (
     <Router>
       <CssBaseline />
       <Container>
-        <AppBar className={classes.navbar}>
-          <Toolbar>
-            <Avatar alt="Viet Ninh" src={profile} sx={{ width: 56, height: 56 }} />
-            <Typography variant="h6" style={{ padding: "10px" }}>
-              Viet Ninh
-            </Typography>
-            <nav>
-              <ul>
-                <Button variant="contained" component={Link} to="/" style={{margin: "8px 8px 8px 8px"}}>
-                  Home
-                </Button>
-                <Button variant="contained" component={Link} to="/vsa" style={{margin: "8px 8px 8px 8px"}}>
-                  Leadership Experience
-                </Button>
-                <Button variant="contained" component={Link} to="/research" style={{margin: "8px 8px 8px 8px"}}>
-                  Research Experience
-                </Button>
-              </ul>
-            </nav>
-          </Toolbar>
-        </AppBar>
+      <AppBar className={classes.navbar}>
+      <Toolbar>
+        <Avatar alt="Viet Ninh" src={profile} sx={{width: 56, height: 56}}/>
+        <Typography variant='h6' style={{padding: "10px"}}>
+          Viet Ninh
+        </Typography>
+
+        <Button variant="contained" component={Link} to="/" style={{ margin: '8px 8px 8px 8px' }}>
+          Home
+        </Button>
+        <Button variant="contained" component={Link} to="/vsa" style={{ margin: '8px 8px 8px 8px' }}>
+          Leadership Experience
+        </Button>
+
+        <div>
+          <Button variant="contained" onClick={handleClick} style={{ margin: '8px 8px 8px 8px' }}>
+            Research Menu
+          </Button>
+          <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
+            <MenuItem onClick={() => handleMenuItemClick()} component={Link} to="/opportunity">
+              Research Opportunity
+            </MenuItem>
+            <MenuItem onClick={() => handleMenuItemClick()} component={Link} to="/research">
+              Research Experience
+            </MenuItem>
+            <MenuItem onClick={() => handleMenuItemClick()} component={Link} to="/takeaway">
+              Research Takeaway
+            </MenuItem>
+          </Menu>
+        </div>
+      </Toolbar>
+    </AppBar>
         <main>
           {/* Navigation Links */}
           <div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             {/* Routing */}
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             <Routes>
+              <Route path="/takeaway" element={<Takeaway />} />
+              <Route path="/opportunity" element={<Opportunity />} />
               <Route path="/research" element={<Research />} />
               <Route path="/vsa" element={<VSA />} />
               <Route path="/" element={<Home />} />
@@ -61,48 +87,4 @@ const App = () => {
     </Router>
   );
 };
-
-  // return (
-  //   <>
-  //     <CssBaseline/>
-  //       <AppBar position="relative" className={classes.navbar}>
-  //         <Toolbar>          
-  //             <Avatar alt="Viet Ninh" src={profile} sx={{ width: 56, height: 56 }} />
-  //               <Typography variant = "h6" style={{padding: "10px"}}>
-  //                 Viet Ninh
-  //               </Typography>
-  //             </Toolbar>
-  //       </AppBar>
-  //     <main>
-  //       <div className='classes.container'>
-  //         <Container maxWidth="sm">
-  //           <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
-  //             Hello!
-  //           </Typography>
-  //           <Typography variant="h6" align="center" color="textSecondary" paragraph>
-  //           I am Viet Ninh, and I am a software engineer
-  //           </Typography>
-  //           <div>
-
-  //             <Grid container spacing={2} justifyContent='center'>
-  //               <Grid item>
-  //                 <Button variant="contained" href='tel:4027709505'>
-  //                   Call Me
-  //                 </Button>
-  //               </Grid>
-  //               <Grid item>
-  //                 <Button variant="outlined" color="primary" href='mailto:vietquocninh@gmail.com'>
-  //                   Email Me
-  //                 </Button>
-  //               </Grid>
-  //             </Grid>
-
-  //           </div>
-  //         </Container>
-
-  //       </div>
-  //     </main>
-  //   </>
-  // )
-
 export default App;

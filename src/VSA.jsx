@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Container, Button } from '@material-ui/core';
+import { Typography, Container } from '@material-ui/core';
 import vsa_gbm from './static/vsa_images/VSA_Food_GBM.JPG';
 import vsa_folk from './static/vsa_images/VSA_Folk_Games.JPG';
 
