@@ -1,10 +1,16 @@
 import React from 'react';
 import { Typography, Container } from '@material-ui/core';
-import thingiverse_image from './static/research_images/thingiverse_image.png'
-import model_image from './static/research_images/prusaslicer-base.JPG'
+import thingiverse_image from '../static/research_images/thingiverse_image.png'
+import model_image from '../static/research_images/prusaslicer-base.JPG'
+import MyAppBar from '../components/MyAppBar';
 const VSA = () =>{
   return (
     <Container maxWidth="med">
+      <MyAppBar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <Typography variant="h3" align="center" color="textPrimary" gutterBottom>
         My Research Experience
         </Typography>

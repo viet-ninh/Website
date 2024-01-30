@@ -1,10 +1,15 @@
 import React from 'react';
 import { Typography, Grid, Container, Button } from '@material-ui/core';
+import MyAppBar from '../components/MyAppBar';
 
 const Home = () =>{
   return (
-    <>
       <Container maxWidth="sm">
+        <MyAppBar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
           Hello!
         </Typography>
@@ -26,7 +31,6 @@ const Home = () =>{
           </Grid>
         </div>
       </Container>
-    </>
   );
 };
 

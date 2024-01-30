@@ -1,11 +1,18 @@
 import React from 'react';
 import { Typography, Container } from '@material-ui/core';
-import vsa_gbm from './static/vsa_images/VSA_Food_GBM.JPG';
-import vsa_folk from './static/vsa_images/VSA_Folk_Games.JPG';
+import vsa_gbm from '../static/vsa_images/VSA_Food_GBM.JPG';
+import vsa_folk from '../static/vsa_images/VSA_Folk_Games.JPG';
+import MyAppBar from '../components/MyAppBar';
+
 
 const VSA = () =>{
   return (
     <Container maxWidth="med">
+      <MyAppBar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <Typography variant="h3" align="center" color="textPrimary" gutterBottom>
           My Leadership Experience
         </Typography>

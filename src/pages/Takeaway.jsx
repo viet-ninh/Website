@@ -1,9 +1,15 @@
 import React from 'react';
 import { Typography, Container } from '@material-ui/core';
+import MyAppBar from '../components/MyAppBar';
 
 const Takeaway = () => {
   return(
     <Container>
+      <MyAppBar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <Typography variant="h3" align="center" gutterBottom>
         My Research Takeaways
       </Typography>

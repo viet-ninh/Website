@@ -1,9 +1,17 @@
 import React from 'react';
 import { Typography, Container } from '@material-ui/core';
-import building from './static/research_images/3D-printed-building-Dubai.jpg'
+import building from '../static/research_images/3D-printed-building-Dubai.jpg'
+
+import MyAppBar from '../components/MyAppBar';
+
 const Opportunity = () => {
   return(
     <Container>
+      <MyAppBar/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <Typography variant="h3" align="center" gutterBottom>
         My Research Opportunity
       </Typography>
