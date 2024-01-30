@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.c1a63bb4.chunk.js",
-    "main.js.map": "/static/js/main.c1a63bb4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a8c2270f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a8c2270f.js.map",
-    "static/js/2.e3cd9cc4.chunk.js": "/static/js/2.e3cd9cc4.chunk.js",
-    "static/js/2.e3cd9cc4.chunk.js.map": "/static/js/2.e3cd9cc4.chunk.js.map",
+    "main.js": "/static/js/main.58ea6459.js",
+    "static/media/profile.jpg": "/static/media/profile.005a1733bd44eaab8b0a.jpg",
+    "static/media/3D-printed-building-Dubai.jpg": "/static/media/3D-printed-building-Dubai.91c44fe198ef5ca3b992.jpg",
+    "static/media/VSA_Food_GBM.JPG": "/static/media/VSA_Food_GBM.aabe94833484d90d6adb.JPG",
+    "static/media/VSA_Folk_Games.JPG": "/static/media/VSA_Folk_Games.6da920c8173c79752615.JPG",
+    "static/media/prusaslicer-base.JPG": "/static/media/prusaslicer-base.072481d29b5881aae7d3.JPG",
     "index.html": "/index.html",
-    "precache-manifest.5826ff4d8166e15a031ae928942490bf.js": "/precache-manifest.5826ff4d8166e15a031ae928942490bf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.e3cd9cc4.chunk.js.LICENSE.txt": "/static/js/2.e3cd9cc4.chunk.js.LICENSE.txt",
-    "static/media/3D-printed-building-Dubai.jpg": "/static/media/3D-printed-building-Dubai.e6452a86.jpg",
-    "static/media/VSA_Folk_Games.JPG": "/static/media/VSA_Folk_Games.63e02c07.JPG",
-    "static/media/VSA_Food_GBM.JPG": "/static/media/VSA_Food_GBM.1e65a178.JPG",
-    "static/media/profile.jpg": "/static/media/profile.c6fd010a.jpg",
-    "static/media/prusaslicer-base.JPG": "/static/media/prusaslicer-base.6bbab7c1.JPG"
+    "main.58ea6459.js.map": "/static/js/main.58ea6459.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8c2270f.js",
-    "static/js/2.e3cd9cc4.chunk.js",
-    "static/js/main.c1a63bb4.chunk.js"
+    "static/js/main.58ea6459.js"
   ]
 }
