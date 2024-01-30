@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.58ea6459.js",
+    "main.js": "/static/js/main.6791a13b.js",
     "static/media/profile.jpg": "/static/media/profile.005a1733bd44eaab8b0a.jpg",
     "static/media/3D-printed-building-Dubai.jpg": "/static/media/3D-printed-building-Dubai.91c44fe198ef5ca3b992.jpg",
     "static/media/VSA_Food_GBM.JPG": "/static/media/VSA_Food_GBM.aabe94833484d90d6adb.JPG",
     "static/media/VSA_Folk_Games.JPG": "/static/media/VSA_Folk_Games.6da920c8173c79752615.JPG",
     "static/media/prusaslicer-base.JPG": "/static/media/prusaslicer-base.072481d29b5881aae7d3.JPG",
+    "static/media/Yay.gif": "/static/media/Yay.78459a527af908b2ac92.gif",
+    "static/media/question.gif": "/static/media/question.95b706145c30acccbbde.gif",
+    "static/media/shock.gif": "/static/media/shock.5e39ff821b98f4e2fbd2.gif",
     "index.html": "/index.html",
-    "main.58ea6459.js.map": "/static/js/main.58ea6459.js.map"
+    "main.6791a13b.js.map": "/static/js/main.6791a13b.js.map"
   },
   "entrypoints": [
-    "static/js/main.58ea6459.js"
+    "static/js/main.6791a13b.js"
   ]
 }
