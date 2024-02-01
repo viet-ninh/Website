@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.6791a13b.js",
+    "main.js": "/static/js/main.8a506836.js",
     "static/media/profile.jpg": "/static/media/profile.005a1733bd44eaab8b0a.jpg",
     "static/media/3D-printed-building-Dubai.jpg": "/static/media/3D-printed-building-Dubai.91c44fe198ef5ca3b992.jpg",
     "static/media/VSA_Food_GBM.JPG": "/static/media/VSA_Food_GBM.aabe94833484d90d6adb.JPG",
@@ -10,9 +10,9 @@
     "static/media/question.gif": "/static/media/question.95b706145c30acccbbde.gif",
     "static/media/shock.gif": "/static/media/shock.5e39ff821b98f4e2fbd2.gif",
     "index.html": "/index.html",
-    "main.6791a13b.js.map": "/static/js/main.6791a13b.js.map"
+    "main.8a506836.js.map": "/static/js/main.8a506836.js.map"
   },
   "entrypoints": [
-    "static/js/main.6791a13b.js"
+    "static/js/main.8a506836.js"
   ]
 }
