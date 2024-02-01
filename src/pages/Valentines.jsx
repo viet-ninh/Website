@@ -16,13 +16,13 @@ const Valentines = () => {
     const [buttonSize, setButtonSize] = useState(50);
     
     const noButtonClick = () => {
-        const newPosition = {
-            left: Math.random() * window.innerWidth,
-            top: Math.random() * window.innerHeight ,
-        };
+        // const newPosition = {
+        //     left: Math.random() * window.innerWidth,
+        //     top: Math.random() * window.innerHeight ,
+        // };
         const newButtonSize = buttonSize + 10;
         setButtonSize(newButtonSize);
-        setPosition(newPosition);
+        // setPosition(newPosition);
         setQuestion(false);
         setYay(false)
         setShock(true);
